@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="httpclient" extends="Task" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+
+	<interface>
+		<field id="content" type="array" />
+		<field id="request" type="assocarray"/>
+	</interface>
+
+	<script type="text/brightscript" uri="pkg:/components/helper/httpclient.brs" />
+</component>

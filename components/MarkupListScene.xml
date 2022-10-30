@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ********** Copyright 2016 Roku Corp.  All Rights Reserved. ********** -->
+<component name="MarkupListScene" extends="Scene">
+	<script type="text/brightscript" uri="pkg:/components/MarkupListScene.brs" />
+	<children>
+		<Rectangle id="background" color="#000000" width="0" height="0" opacity="1" visible="true" />
+		<MarkupList id="MarkupList" itemComponentName="ListItem"  itemSize="[700, 60]" focusBitmapUri="pkg:/images/hoverItem.png" itemSpacing="[0, 20]" translation="[100,100]" />
+	</children>
+</component>
